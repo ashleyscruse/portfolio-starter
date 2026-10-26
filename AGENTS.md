@@ -18,6 +18,7 @@ world sees.
 | `projects/` | One file per project, all the same shape | Me |
 | `projects/_template.md` | The blank shape for a new project | Nobody; copy it |
 | `images/` | Photos, screenshots, charts | Me |
+| `SETUP.md` | Pre-work guide for filling this folder | Nobody; follow it when I ask |
 | `index.html`, `style.css` | The website | You |
 | `package.json` | Runs the preview (`npm run dev`) | Nobody; leave it alone |
 
