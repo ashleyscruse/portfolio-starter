@@ -5,8 +5,9 @@ are, and the rules. If a request conflicts with these rules, ask me before you a
 
 ## What this is
 
-My personal portfolio website. It is published with GitHub Pages from the `main`
-branch, so whatever is in `index.html` at the top of this repo is what the world sees.
+My personal portfolio website. `index.html` at the top of this folder is the site.
+I preview it with `npm run dev`; if I publish it later, that same file is what the
+world sees.
 
 ## Where things are
 
@@ -18,14 +19,16 @@ branch, so whatever is in `index.html` at the top of this repo is what the world
 | `projects/_template.md` | The blank shape for a new project | Nobody; copy it |
 | `images/` | Photos, screenshots, charts | Me |
 | `index.html`, `style.css` | The website | You |
+| `package.json` | Runs the preview (`npm run dev`) | Nobody; leave it alone |
 
 ## Rules
 
 1. **Facts come only from my files.** Every name, title, number, date, award, and link
    on the site must come from `context/` or `projects/`. Never invent one. If something
    is missing, leave an HTML comment like `<!-- TODO: add GPA? -->` and tell me.
-2. **Plain HTML and CSS.** One `index.html` and one `style.css` at the top of the repo.
-   No frameworks, no build step, no JavaScript unless I ask.
+2. **Plain HTML and CSS.** One `index.html` and one `style.css` at the top of the folder.
+   No frameworks and no JavaScript unless I ask. `npm run dev` is only for previewing;
+   the site must still work if someone opens `index.html` directly.
 3. **Works on a phone.** Check every layout at phone width.
 4. **Accessible.** Every image gets real alt text. Text has enough contrast to read.
 5. **Plan before big changes.** For anything bigger than a small fix, show me a short

@@ -10,6 +10,7 @@ The AI writes the website; the files here tell it who you are and how to behave.
 | `projects/` | One file per project, same shape every time |
 | `images/` | Photos, screenshots, charts |
 
-**To use it:** click **Use this template**, name your new repository
-`<your-username>.github.io`, make it public, then open it in VS Code. The step-by-step
-guide and prompts are at https://ashleyscruse.github.io/ai-portfolio-workshop/.
+**To use it:** click **Code**, then **Download ZIP**, and unzip it. Open the folder in
+the Code tab of the Claude desktop app and run `npm install` and `npm run dev` to
+preview your site. The step-by-step guide and prompts are at
+https://ashleyscruse.github.io/ai-portfolio-workshop/.
